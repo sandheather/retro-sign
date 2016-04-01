@@ -34,3 +34,46 @@ svg {
 .lines path {
   stroke-dasharray: 0, 480;
 }
+
+.is-clicked
+
+
+.lines path {
+  stroke-dasharray: 0, 480;
+}
+
+.is-engaged .engage path {
+  transition: all .5s ease;
+  fill: #f60;
+}
+
+.engage path:nth-child(2) {
+  transition-delay: .2s;
+}
+
+.is-engaged .lines path {
+  animation: show .5s linear forwards;
+}
+
+@keyframes show {
+
+  0% {
+    stroke-dasharray: 0, 480;
+  }
+
+  100% {
+    stroke-dasharray: 480, 480;
+  }
+}
+
+.is-engaged .btn path:nth-child(2) {
+  fill: #f60;
+}
+
+.btn:active {
+  transform: scale(1, 1);
+}
+
+.btn:hover path:nth-child{
+
+}
