@@ -35,10 +35,6 @@ svg {
   stroke-dasharray: 0, 480;
 }
 
-.lines path {
-  stroke-dasharray: 0, 480;
-}
-
 .is-engaged .engage path {
   transition: all .5s ease;
   fill: #f60;
@@ -69,9 +65,8 @@ svg {
 
 .btn:active {
   transform: scale(1, 1);
-
 }
 
-.btn path:last-child:hover{
-  fill: #f60
+.btn path:last-child:hover {
+  fill: #f60;
 }
